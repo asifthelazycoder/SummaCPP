@@ -18,6 +18,13 @@ label1 -> Text = textbox1 -> Text;
 Application::Exit() //To exit out of the app
 ```
 
+## Convert textbox string to float
+```
+ String^ i1 = textBox1->Text;
+ float rez = (float)(Convert::ToDouble(i1)*4.35);
+ textBox2->Text = rez.ToString();
+```
+https://stackoverflow.com/questions/8718048/converting-textbox-string-to-float
 ## Message Box
 
 ```
